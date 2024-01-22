@@ -1,4 +1,4 @@
-###update vi etc/ansible/host
+###update vi etc/ansible/hosts
 
 [testnodes]
 samplenode1 ansible_ssh_host=172.31.4.235 ansible_ssh_user=ansibleadmin
@@ -20,7 +20,7 @@ ansible samplenode1 -m ping -i inventory1
 #all | group_name | individual_host_name
 
 
-###update vi /etc/ansible/host
+###update vi /etc/ansible/hosts
 
 [testnodes]
 samplenode1 ansible_ssh_host=172.31.41.32 ansible_ssh_user=ansibleadmin
